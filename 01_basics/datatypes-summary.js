@@ -35,3 +35,36 @@ const myFunction = function(){              // its return datatype as Function b
 
 // console.log(typeof bigNumber);
 console.log(typeof heros);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// Stack memory (primitive - here we got a copy of a value from a memory), Heap memory(non-primitive - here we got a refernce of original value)
+
+
+let myYoutubeName = "hiteshchoudharydotcom"
+
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+
+console.log(myYoutubeName);   // hiteshchoudharydotcom
+console.log(anothername);    //chaiaurcode
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "Agya@google.com"
+
+console.log(userOne.email);    // Agya@google.com
+console.log(userTwo.email);    // Agya@google.com
+
+
+
+
